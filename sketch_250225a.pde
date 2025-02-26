@@ -19,7 +19,7 @@ void setup() {
 }
 
 void draw() {
-  background(0); 
+  background(thing); 
   
   if(change == 1 && mouseX > 100 && mouseX < 700) {
     sliderX = mouseX;
